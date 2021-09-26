@@ -16,7 +16,25 @@ h2 {
   background: #bb5a5a;
   padding: 30px;
 }
+
+h2 a {
+  text-decoration: none;
+  color: black;
+}
+
+h2 a:hover {
+  color: black;
+  text-decoration: underline;
+}
+h3 {
+  padding: 8px;
+}
 p {
+  font-family: "Cabin", sans-serif;
+}
+
+.learn-more-btn {
+  background-color: #bb5a5a;
   font-family: "Cabin", sans-serif;
 }
 
@@ -27,6 +45,7 @@ p {
 .navbar {
   background-color: #bb5a5a;
   color: black;
+  font-family: "Cabin", sans-serif;
 }
 .navbar-toggler {
   color: black;
@@ -34,4 +53,14 @@ p {
 
 .navbar a {
   color: black;
+}
+
+.padding-ult {
+  padding: 48px;
+}
+
+@media (max-width: 900px) {
+  .padding-ult {
+    padding: 16px;
+  }
 }
