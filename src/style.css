@@ -1,3 +1,9 @@
+:root {
+  --main-branding-color: #bb5a5a;
+  --serif-font: "Playfair Display", serif;
+  --sans-serif-font: "Cabin", sans-serif;
+}
+
 body {
   text-align: center;
   background-color: #f9f5f0;
@@ -9,11 +15,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Playfair Display", serif;
+  font-family: var(--serif-font);
   font-weight: bold;
 }
 h2 {
-  background: #bb5a5a;
+  background: var(--main-branding-color);
   padding: 30px;
 }
 
@@ -30,12 +36,12 @@ h3 {
   padding: 8px;
 }
 p {
-  font-family: "Cabin", sans-serif;
+  font-family: var(--sans-serif-font);
 }
 
 .learn-more-btn {
-  background-color: #bb5a5a;
-  font-family: "Cabin", sans-serif;
+  background-color: var(--main-branding-color);
+  font-family: var(--sans-serif-font);
 }
 
 .navbar-nav {
@@ -43,9 +49,9 @@ p {
 }
 
 .navbar {
-  background-color: #bb5a5a;
+  background-color: var(--main-branding-color);
   color: black;
-  font-family: "Cabin", sans-serif;
+  font-family: var(--sans-serif-font);
 }
 .navbar-toggler {
   color: black;
@@ -57,6 +63,9 @@ p {
 
 .padding-ult {
   padding: 48px;
+}
+.italicize {
+  font-style: italic;
 }
 
 @media (max-width: 900px) {
